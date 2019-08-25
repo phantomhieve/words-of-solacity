@@ -1,0 +1,137 @@
+html, body {
+    height: 100%;
+    width: 100%;
+}
+body {
+    background-image: url('assets/images/background.jpg');
+    height: 100%;
+    background-repeat: repeat;
+    background-size: cover;
+}
+.padding {
+    padding: .8em;
+}
+
+section {
+    padding-top: 60px;
+}
+.section__jumbotron {
+    padding-top: 50px !important;
+}
+
+.text-white {
+    color: white !important;
+}
+
+/* NavBar Section */
+.navbar {
+    padding: .8rem;
+    top: 0;
+    position: fixed;
+    width: 100%;
+    opacity: 1 !important;
+}
+.navbar-brand {
+    font-family: 'Monoton', cursive;
+    font-size: 40px;
+    padding: 4px;
+}
+.navbar-nav li {
+    padding-right: 20px;
+}
+.nav-link {
+    font-size: 1.1em !important;
+}
+
+/* Jumbotron Section */
+.jumbotron {
+    opacity: 0.6;
+}
+.text-jumnotron__heading {
+    opacity: 1 !important;
+    text-align: center;
+    font-family: 'Acme', sans-serif;
+    font-size: 40px;
+}
+.text-jumnotron__content {
+    opacity: 1 !important;
+    text-align: center;
+    font-family: 'Courgette', cursive;
+    font-size: 27px;
+}
+
+
+/* Card Section */
+.card {
+    opacity: .9 !important;
+    margin-bottom: 20px;
+}
+
+.card-title {
+    text-align: center;
+    opacity: .8 !important;
+}
+
+/* Container Section */
+.section__about {
+    opacity: .8;
+    padding: 3px;
+    margin-bottom: 50px;
+    margin-top: 25px;
+}
+/* Icons */
+.social a {
+    font-size: 4.5em;
+}
+.fa-facebook-f {
+    color: #3b5998;
+}
+.fa-instagram {
+    color: #dd2a7b;
+}
+.fa-snapchat {
+    color: #fffc00;
+}
+
+.fa-facebook-f:hover,
+.fa-instagram:hover,
+.fa-snapchat:hover {
+    color: #d5d5d5;
+}
+
+/* Footer Section */
+footer {
+    opacity: .8;
+}
+
+/* Media Queries */
+/*---Media Queries --*/
+@media (max-width: 992px) {
+    /* Increase Jumbotron size*/
+}
+@media (max-width: 768px) {
+    /* Decrease heading*/
+}
+@media (max-width: 576px) {
+    .navbar-brand {
+        font-size: 21px;
+    }
+    .social a {
+        font-size: 3.3em;
+    }
+    footer h2{
+        font-size: 25px;
+    }
+    footer h4{
+        font-size: 18px;
+    }
+    section {
+        padding-top: 33px !important;
+    }
+    .text-jumnotron__content {
+        font-size: 20px !important;   
+    }
+    .text-jumnotron__heading {
+        font-size: 30px !important;
+    }
+}
